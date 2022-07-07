@@ -12,5 +12,4 @@ public class SwapMain<T> {
         array[indexB] = this.intermediate;
         return array;
     }
-
 }

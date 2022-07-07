@@ -26,16 +26,16 @@ public class Box <T extends Fruit> {
     }
 
     public void toEmptyCarton(Box<T> box) {
-        System.out.println("В коробке " + this.getWeight());
-        System.out.println("В следующей коробке " + box.getWeight());
+        System.out.println("Р’ РєРѕСЂРѕР±РєРµ " + this.getWeight());
+        System.out.println("Р’ СЃР»РµРґСѓСЋС‰РµР№ РєРѕСЂРѕР±РєРµ " + box.getWeight());
         for(int i = 0; i< box.getFruitArray().length;i++) {
             if (box.getFruitArray()[i] != null) {
                 this.getFruitArray()[getSize()] = box.getFruitArray()[i];
                 box.getFruitArray()[i] = null;
             }
         }
-        System.out.println("В коробке после пересыпания " + this.getWeight());
-        System.out.println("В текущей коробке " + box.getWeight() + '\n');
+        System.out.println("Р’ РєРѕСЂРѕР±РєРµ РїРѕСЃР»Рµ РїРµСЂРµСЃС‹РїР°РЅРёСЏ " + this.getWeight());
+        System.out.println("Р’ С‚РµРєСѓС‰РµР№ РєРѕСЂРѕР±РєРµ " + box.getWeight() + '\n');
     }
 
     private int getSize() {
