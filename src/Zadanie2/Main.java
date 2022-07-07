@@ -35,7 +35,7 @@ public class Main {
         Box<Orange_extends_Fruit> carton4 = new Box<>(oranges1);
 
 
-        System.out.println(carton3.getWeight());// сколько долларов
+        System.out.println(carton3.getWeight());
         System.out.println(carton3.compare(carton4));
 
         carton3.toEmptyCarton(carton4);

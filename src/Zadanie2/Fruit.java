@@ -2,7 +2,7 @@ package Zadanie2;
 
 public abstract class Fruit {
     private String name;
-    private Integer cartonWeight; //вес коробки
+    private Integer cartonWeight; //РІРµСЃ РєРѕСЂРѕР±РєРё
 
     public Fruit(String name, Integer cartonWeight ) {
         this.name = name;
